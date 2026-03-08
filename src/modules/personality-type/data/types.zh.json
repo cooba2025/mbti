@@ -1,0 +1,418 @@
+[
+  {
+    "id": "intj",
+    "type_code": "INTJ",
+    "stack_summary": "以長期策略為核心，先看全局趨勢，再用效率導向的方法落地。",
+    "stack": [
+      { "function_id": "ni", "position": "dominant" },
+      { "function_id": "te", "position": "auxiliary" },
+      { "function_id": "fi", "position": "tertiary" },
+      { "function_id": "se", "position": "inferior" }
+    ],
+    "processing_flow": ["抓底層模式", "建立執行方案", "校準價值取向", "回到現場驗證"],
+    "development": {
+      "early_stage": "偏好獨立思考與深度專注，先想清楚再行動。",
+      "balancing_stage": "學會把複雜想法轉成可協作的溝通方式。",
+      "mature_stage": "兼具戰略眼光、執行力與人際敏感度。"
+    },
+    "grip": {
+      "trigger": "方向反覆變動、被打斷過多、缺乏清晰標準。",
+      "behaviors": ["過度控制細節", "語氣變尖銳", "忽略情感脈絡"],
+      "recovery": "先重整優先順序，再以單一主軸逐步推進。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來冷淡", "intention": "其實在做長期推演與風險評估" },
+      { "appearance": "看起來挑剔", "intention": "其實在追求系統品質與一致性" }
+    ]
+  },
+  {
+    "id": "intp",
+    "type_code": "INTP",
+    "stack_summary": "重視邏輯一致與概念精準，擅長拆解問題與建模。",
+    "stack": [
+      { "function_id": "ti", "position": "dominant" },
+      { "function_id": "ne", "position": "auxiliary" },
+      { "function_id": "si", "position": "tertiary" },
+      { "function_id": "fe", "position": "inferior" }
+    ],
+    "processing_flow": ["定義問題邊界", "提出多種模型", "用證據驗證", "收斂成結論"],
+    "development": {
+      "early_stage": "行動前會先投入大量時間理解系統。",
+      "balancing_stage": "練習先交付可用版本，而非等待完美。",
+      "mature_stage": "能把抽象洞察轉成對團隊有用的輸出。"
+    },
+    "grip": {
+      "trigger": "資訊不足下被迫快速定案。",
+      "behaviors": ["分析過度", "溝通抽離", "進入辯論防衛"],
+      "recovery": "設定決策時限，先做可逆的小步實驗。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來不投入", "intention": "其實還在驗證假設與邏輯" },
+      { "appearance": "看起來太直接", "intention": "其實是在追求表述精確" }
+    ]
+  },
+  {
+    "id": "entj",
+    "type_code": "ENTJ",
+    "stack_summary": "擅長目標導向與資源整合，能快速建立高效推進節奏。",
+    "stack": [
+      { "function_id": "te", "position": "dominant" },
+      { "function_id": "ni", "position": "auxiliary" },
+      { "function_id": "se", "position": "tertiary" },
+      { "function_id": "fi", "position": "inferior" }
+    ],
+    "processing_flow": ["定義結果", "切分責任", "按里程碑執行", "持續校正優化"],
+    "development": {
+      "early_stage": "在混亂場景中常自然成為主導者。",
+      "balancing_stage": "增加傾聽與反方意見吸收，降低盲點。",
+      "mature_stage": "兼顧高標準執行與團隊可持續性。"
+    },
+    "grip": {
+      "trigger": "低效率反覆發生、權責不清。",
+      "behaviors": ["語氣過強", "急於定案", "容忍度下降"],
+      "recovery": "回到共同目標，重建分工與節奏。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來強勢", "intention": "其實在壓縮風險與時間成本" },
+      { "appearance": "看起來控制欲高", "intention": "其實在維持交付品質" }
+    ]
+  },
+  {
+    "id": "entp",
+    "type_code": "ENTP",
+    "stack_summary": "創新與適應力強，善於快速連結想法並測試可能性。",
+    "stack": [
+      { "function_id": "ne", "position": "dominant" },
+      { "function_id": "ti", "position": "auxiliary" },
+      { "function_id": "fe", "position": "tertiary" },
+      { "function_id": "si", "position": "inferior" }
+    ],
+    "processing_flow": ["大量發散", "挑戰假設", "快速原型", "收斂方案"],
+    "development": {
+      "early_stage": "對新題目與新框架有高度好奇與行動力。",
+      "balancing_stage": "建立收斂機制，提升完成率。",
+      "mature_stage": "把創意與紀律結合，兼顧探索與交付。"
+    },
+    "grip": {
+      "trigger": "重複流程過多、缺乏試錯空間。",
+      "behaviors": ["頻繁跳題", "為刺激而辯", "收尾能力下降"],
+      "recovery": "保留一個實驗焦點，定義完成標準。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來愛抬槓", "intention": "其實在壓測邏輯強度" },
+      { "appearance": "看起來善變", "intention": "其實在即時調整策略" }
+    ]
+  },
+  {
+    "id": "infj",
+    "type_code": "INFJ",
+    "stack_summary": "具洞察深度與關係敏感度，重視意義與長期一致。",
+    "stack": [
+      { "function_id": "ni", "position": "dominant" },
+      { "function_id": "fe", "position": "auxiliary" },
+      { "function_id": "ti", "position": "tertiary" },
+      { "function_id": "se", "position": "inferior" }
+    ],
+    "processing_flow": ["抓長期脈絡", "評估人際影響", "理性整理觀點", "回到當下落地"],
+    "development": {
+      "early_stage": "能敏銳感受隱性動機與群體氣氛。",
+      "balancing_stage": "學會更清楚地設定界線與期待。",
+      "mature_stage": "能在願景、同理與執行間取得平衡。"
+    },
+    "grip": {
+      "trigger": "價值衝突與長期關係失衡。",
+      "behaviors": ["突然抽離", "過度解讀訊號", "感官過載"],
+      "recovery": "先減少外部刺激，再回到核心關係支持。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來神祕", "intention": "其實在做深層整合與消化" },
+      { "appearance": "看起來理想化", "intention": "其實在維護長期價值一致" }
+    ]
+  },
+  {
+    "id": "infp",
+    "type_code": "INFP",
+    "stack_summary": "以真誠與內在價值為核心，兼具同理與想像力。",
+    "stack": [
+      { "function_id": "fi", "position": "dominant" },
+      { "function_id": "ne", "position": "auxiliary" },
+      { "function_id": "si", "position": "tertiary" },
+      { "function_id": "te", "position": "inferior" }
+    ],
+    "processing_flow": ["確認內在認同", "探索多種可能", "回看個人經驗", "把價值轉行動"],
+    "development": {
+      "early_stage": "重視真實感，寧可慢也不違背信念。",
+      "balancing_stage": "補足結構化與時程管理能力。",
+      "mature_stage": "把理想轉化為可持續的實際貢獻。"
+    },
+    "grip": {
+      "trigger": "被迫違背價值或被否定核心認同。",
+      "behaviors": ["情緒收縮", "迴避衝突", "過度理想化未來"],
+      "recovery": "命名核心價值，先完成一個具體小步。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來被動", "intention": "其實在做深度內在校準" },
+      { "appearance": "看起來不一致", "intention": "其實在處理價值細節差異" }
+    ]
+  },
+  {
+    "id": "enfj",
+    "type_code": "ENFJ",
+    "stack_summary": "擅長凝聚共識與激勵他人，能推動群體成長。",
+    "stack": [
+      { "function_id": "fe", "position": "dominant" },
+      { "function_id": "ni", "position": "auxiliary" },
+      { "function_id": "se", "position": "tertiary" },
+      { "function_id": "ti", "position": "inferior" }
+    ],
+    "processing_flow": ["辨識群體需求", "建立共同願景", "動員資源協作", "持續回顧調整"],
+    "development": {
+      "early_stage": "常主動承擔協調與培育角色。",
+      "balancing_stage": "區分支持他人與過度承擔。",
+      "mature_stage": "在高同理下維持邊界與決策清晰。"
+    },
+    "grip": {
+      "trigger": "關係破裂、努力長期不被回應。",
+      "behaviors": ["過度討好", "責任攬過頭", "自我批評加劇"],
+      "recovery": "重設邊界與角色範圍，尋求對等支持。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來管太多", "intention": "其實在維持團隊協作品質" },
+      { "appearance": "看起來情緒化", "intention": "其實對人與關係高度投入" }
+    ]
+  },
+  {
+    "id": "enfp",
+    "type_code": "ENFP",
+    "stack_summary": "熱情外向且想像力豐富，能快速看見機會與連結。",
+    "stack": [
+      { "function_id": "ne", "position": "dominant" },
+      { "function_id": "fi", "position": "auxiliary" },
+      { "function_id": "te", "position": "tertiary" },
+      { "function_id": "si", "position": "inferior" }
+    ],
+    "processing_flow": ["捕捉新機會", "價值篩選", "整理執行路徑", "用節奏做完"],
+    "development": {
+      "early_stage": "能快速點燃氛圍與創意動能。",
+      "balancing_stage": "建立優先級與收斂習慣。",
+      "mature_stage": "把靈感轉成穩定交付與長期影響。"
+    },
+    "grip": {
+      "trigger": "被過度微管、缺乏自主與新鮮感。",
+      "behaviors": ["注意力分散", "延遲收尾", "對限制感到焦躁"],
+      "recovery": "一次只聚焦一件最重要的事並完成。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來不專心", "intention": "其實在尋找最佳切入點" },
+      { "appearance": "看起來太樂觀", "intention": "其實能看到潛在可能性" }
+    ]
+  },
+  {
+    "id": "istj",
+    "type_code": "ISTJ",
+    "stack_summary": "務實穩定、重視責任與標準，擅長可靠執行。",
+    "stack": [
+      { "function_id": "si", "position": "dominant" },
+      { "function_id": "te", "position": "auxiliary" },
+      { "function_id": "fi", "position": "tertiary" },
+      { "function_id": "ne", "position": "inferior" }
+    ],
+    "processing_flow": ["調用既有經驗", "建立流程規範", "穩定執行", "檢查品質風險"],
+    "development": {
+      "early_stage": "以守信與一致性建立信任。",
+      "balancing_stage": "在維持標準下逐步提升彈性。",
+      "mature_stage": "兼顧制度品質與情境調整能力。"
+    },
+    "grip": {
+      "trigger": "規則頻繁變動且缺乏理由。",
+      "behaviors": ["流程僵化", "對模糊情境焦躁", "悲觀預測增加"],
+      "recovery": "先確認底線，再更新做法與優先序。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來保守", "intention": "其實在守住穩定與可預期性" },
+      { "appearance": "看起來冷漠", "intention": "其實專注把責任做好" }
+    ]
+  },
+  {
+    "id": "isfj",
+    "type_code": "ISFJ",
+    "stack_summary": "細膩可靠、重視照顧與秩序，常是團隊穩定器。",
+    "stack": [
+      { "function_id": "si", "position": "dominant" },
+      { "function_id": "fe", "position": "auxiliary" },
+      { "function_id": "ti", "position": "tertiary" },
+      { "function_id": "ne", "position": "inferior" }
+    ],
+    "processing_flow": ["觀察具體需求", "提供務實支援", "顧及公平感受", "持續微調補位"],
+    "development": {
+      "early_stage": "透過日常細節與服務精神建立連結。",
+      "balancing_stage": "在過載前表達限制與需求。",
+      "mature_stage": "既能照顧他人，也能照顧自己界線。"
+    },
+    "grip": {
+      "trigger": "長期被視為理所當然、回饋不足。",
+      "behaviors": ["悶著不說", "過度配合", "面對新變化退縮"],
+      "recovery": "把工作量可視化，重新協調優先順序。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來順從", "intention": "其實在主動維持關係穩定" },
+      { "appearance": "看起來慢熱", "intention": "其實在審慎評估實際影響" }
+    ]
+  },
+  {
+    "id": "estj",
+    "type_code": "ESTJ",
+    "stack_summary": "組織力與決斷力強，能快速建立清楚分工與節奏。",
+    "stack": [
+      { "function_id": "te", "position": "dominant" },
+      { "function_id": "si", "position": "auxiliary" },
+      { "function_id": "ne", "position": "tertiary" },
+      { "function_id": "fi", "position": "inferior" }
+    ],
+    "processing_flow": ["先定標準", "分派責任", "追蹤指標", "即時修正偏差"],
+    "development": {
+      "early_stage": "在需要秩序與推進時常主動扛責。",
+      "balancing_stage": "在定案前增加多元觀點輸入。",
+      "mature_stage": "高標準同時保有彈性與尊重。"
+    },
+    "grip": {
+      "trigger": "失序、延誤、責任歸屬模糊。",
+      "behaviors": ["過度微管", "耐心下降", "工作壓力外溢"],
+      "recovery": "重建角色邊界，聚焦最關鍵成果。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來嚴厲", "intention": "其實在維護公平與可交付性" },
+      { "appearance": "看起來急躁", "intention": "其實在避免可預防的損失" }
+    ]
+  },
+  {
+    "id": "esfj",
+    "type_code": "ESFJ",
+    "stack_summary": "重視合作與關係品質，擅長把團隊照顧到位。",
+    "stack": [
+      { "function_id": "fe", "position": "dominant" },
+      { "function_id": "si", "position": "auxiliary" },
+      { "function_id": "ne", "position": "tertiary" },
+      { "function_id": "ti", "position": "inferior" }
+    ],
+    "processing_flow": ["確認群體期待", "協調支持行動", "運用成熟做法", "依回饋調整"],
+    "development": {
+      "early_stage": "善於建立友善秩序與互助文化。",
+      "balancing_stage": "練習在衝突中保留獨立判斷。",
+      "mature_stage": "兼顧人情與原則，合作更穩健。"
+    },
+    "grip": {
+      "trigger": "關係緊張、付出失衡、缺乏回應。",
+      "behaviors": ["過度在意評價", "情緒起伏變大", "理性分析能力暫降"],
+      "recovery": "先分開事實與情緒，再重談共同期待。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來討好", "intention": "其實在維持合作信任成本最低" },
+      { "appearance": "看起來傳統", "intention": "其實偏好可驗證的有效做法" }
+    ]
+  },
+  {
+    "id": "istp",
+    "type_code": "ISTP",
+    "stack_summary": "冷靜務實、反應快，擅長即時拆解與修復問題。",
+    "stack": [
+      { "function_id": "ti", "position": "dominant" },
+      { "function_id": "se", "position": "auxiliary" },
+      { "function_id": "ni", "position": "tertiary" },
+      { "function_id": "fe", "position": "inferior" }
+    ],
+    "processing_flow": ["看清系統運作", "找最高槓桿點", "精準出手", "用回饋優化"],
+    "development": {
+      "early_stage": "透過動手實作快速建立能力。",
+      "balancing_stage": "提升溝通透明度與協作可預期性。",
+      "mature_stage": "技術判斷與團隊合作並重。"
+    },
+    "grip": {
+      "trigger": "繁瑣官僚、過度管控、無效會議。",
+      "behaviors": ["突然斷線", "壓力下冒險", "迴避情緒議題"],
+      "recovery": "回到具體問題，清楚說明邊界與下一步。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來冷", "intention": "其實在專注機制與事實" },
+      { "appearance": "看起來衝動", "intention": "其實是快速情境判斷" }
+    ]
+  },
+  {
+    "id": "isfp",
+    "type_code": "ISFP",
+    "stack_summary": "溫和真誠、重視美感與價值一致，行動貼近當下體驗。",
+    "stack": [
+      { "function_id": "fi", "position": "dominant" },
+      { "function_id": "se", "position": "auxiliary" },
+      { "function_id": "ni", "position": "tertiary" },
+      { "function_id": "te", "position": "inferior" }
+    ],
+    "processing_flow": ["感受內在共鳴", "關注當下細節", "整理個人方向", "需要時補上結構"],
+    "development": {
+      "early_stage": "常透過作品與選擇表達自我。",
+      "balancing_stage": "強化規劃與長期承諾管理。",
+      "mature_stage": "兼顧真實感、同理心與責任感。"
+    },
+    "grip": {
+      "trigger": "被粗暴否定或長期受外控壓力。",
+      "behaviors": ["安靜退縮", "情緒悶住", "壓力下拖延任務"],
+      "recovery": "回到核心價值，完成一個小而具體的行動。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來安靜", "intention": "其實在細緻感受與判斷契合度" },
+      { "appearance": "看起來隨性", "intention": "其實在追求表達品質與真實性" }
+    ]
+  },
+  {
+    "id": "estp",
+    "type_code": "ESTP",
+    "stack_summary": "行動敏捷、臨場判斷強，能在變動環境中抓住機會。",
+    "stack": [
+      { "function_id": "se", "position": "dominant" },
+      { "function_id": "ti", "position": "auxiliary" },
+      { "function_id": "fe", "position": "tertiary" },
+      { "function_id": "ni", "position": "inferior" }
+    ],
+    "processing_flow": ["快速讀取現場", "找到可用優勢", "果斷執行", "依即時回饋修正"],
+    "development": {
+      "early_stage": "在高變化場景中表現特別亮眼。",
+      "balancing_stage": "補強長期風險評估與節奏管理。",
+      "mature_stage": "把速度優勢與責任感結合。"
+    },
+    "grip": {
+      "trigger": "過度限制、流程過慢、決策拖延。",
+      "behaviors": ["挑戰規則", "短線衝動決策", "忽略後續影響"],
+      "recovery": "放慢一步，先盤點後果與邊界再行動。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來冒進", "intention": "其實擅長在不確定中快速反應" },
+      { "appearance": "看起來不細膩", "intention": "其實優先處理當下最關鍵問題" }
+    ]
+  },
+  {
+    "id": "esfp",
+    "type_code": "ESFP",
+    "stack_summary": "外向有感染力，重視當下互動與真實感受。",
+    "stack": [
+      { "function_id": "se", "position": "dominant" },
+      { "function_id": "fi", "position": "auxiliary" },
+      { "function_id": "te", "position": "tertiary" },
+      { "function_id": "ni", "position": "inferior" }
+    ],
+    "processing_flow": ["投入眼前情境", "確認人事契合", "推動具體行動", "回看長期方向"],
+    "development": {
+      "early_stage": "能快速帶動氣氛與行動意願。",
+      "balancing_stage": "強化延遲回報任務的持續力。",
+      "mature_stage": "在熱情與承諾間維持穩定平衡。"
+    },
+    "grip": {
+      "trigger": "被排除、被強控、長期單調無變化。",
+      "behaviors": ["用分心逃避壓力", "情緒波動加劇", "避免困難規劃"],
+      "recovery": "先降噪、聚焦一件事，完整收尾。"
+    },
+    "interaction_misunderstandings": [
+      { "appearance": "看起來表面", "intention": "其實非常重視真實連結與體驗" },
+      { "appearance": "看起來不自律", "intention": "其實擅長高彈性情境下的即時應對" }
+    ]
+  }
+]
